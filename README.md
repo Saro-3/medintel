@@ -345,6 +345,7 @@ The following features are planned for future releases of MedIntel:
 * 🤖 AI-powered medicine assistant using Large Language Models (LLMs)
 
 ---
+<a id="author"></a>
 ## 👨‍💻 Author
 
 **Saravanan Thangaraj**
