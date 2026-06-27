@@ -1,6 +1,12 @@
 <div align="center">
 
+<img src="assets/logo/medintel-logo.png" alt="MedIntel Logo" width="120">
+
 # 💊 MedIntel
+
+<p align="center">
+  <img src="assets/banner/medintel-banner.png" alt="MedIntel Banner" width="100%">
+</p>
 
 ### Generic Medicine Information System
 
@@ -11,16 +17,35 @@ A Full-Stack Web Application built using **React.js**, **Spring Boot**, and **My
 ---
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge\&logo=openjdk)
+![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
 ![React](https://img.shields.io/badge/React.js-19-61DAFB?style=for-the-badge\&logo=react)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=for-the-badge\&logo=springboot)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge\&logo=mysql)
 ![REST API](https://img.shields.io/badge/REST_API-Enabled-blue?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge\&logo=git)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 </div>
 
 ---
+
+## 📑 Table of Contents
+
+- [📖 Overview](#-overview)
+- [✨ Features](#-features)
+- [🛠️ Technology Stack](#technology-stack)
+- [🏗️ System Architecture](#system-architecture)
+- [📂 Project Structure](#-project-structure)
+- [🚀 Installation Guide](#-installation-guide)
+- [📸 Application Screenshots](#-application-screenshots)
+- [🧠 Data Structures & Algorithms](#data-structures-and-algorithms)
+- [📚 Documentation](#-documentation)
+- [🚀 Future Enhancements](#-future-enhancements)
+- [👨‍💻 Author](#-author)
+- [📄 License](#-license)
+
+---
+
 ## 📖 Overview
 
 **MedIntel** is a full-stack web application designed to provide structured and reliable information about generic medicines through an intuitive and user-friendly interface. Users can search medicines, explore detailed medicine insights, and access information such as chemical composition, dosage, indications, side effects, precautions, interactions, and storage guidelines.
@@ -42,6 +67,7 @@ To enhance user experience, MedIntel also includes a **rule-based chatbot** that
 * 📱 Responsive and user-friendly web interface
 
 ---
+<a id="technology-stack"></a>
 
 ## 🛠️ Technology Stack
 
@@ -56,6 +82,8 @@ To enhance user experience, MedIntel also includes a **rule-based chatbot** that
 | **Development Tools** | Visual Studio Code, IntelliJ IDEA, MySQL Workbench, Postman |
 
 ---
+<a id="system-architecture"></a>
+
 ## 🏗️ System Architecture
 
 The MedIntel application follows a **three-tier architecture** consisting of a React.js frontend, a Spring Boot backend exposing REST APIs, and a MySQL database for persistent storage.
@@ -97,6 +125,19 @@ MedIntel/
 │   ├── presentation/
 │   └── README.md
 │
+├── screenshots/               # Application Screenshots
+│   └── README.md
+│
+├── assets/                 # Images used in README
+│   ├──architecture/
+│   │  └── system-architecture.png
+│   │
+│   ├── banner/
+│   │   └── medintel-banner.png
+│   │
+│   └── logo/
+│       └── medintel-logo.png
+│
 ├── README.md
 ├── .gitignore
 └── LICENSE
@@ -114,6 +155,8 @@ Before running the project, make sure the following software is installed on you
 * MySQL 8.0
 * Maven
 * Git
+
+Ensure all prerequisites are installed before proceeding with the setup.
 
 ---
 
@@ -203,6 +246,9 @@ http://localhost:5173
 ```
 
 The frontend will communicate with the Spring Boot backend using REST APIs.
+
+---
+
 ## 📸 Application Screenshots
 
 ### 🏠 Home Page
@@ -250,10 +296,11 @@ Shows complete information about the selected medicine, including composition, d
 A built-in chatbot that answers medicine-related questions using predefined rules and the application's medicine database.
 
 <p align="center">
-  <img src="screenshots/chatbot.png" alt="Rule-Based Chatbot" width="350">
+  <img src="screenshots/chatbot.png" alt="Rule-Based Chatbot" width="900">
 </p>
 
 ---
+<a id="data-structures-and-algorithms"></a>
 ## 🧠 Data Structures & Algorithms
 
 MedIntel applies fundamental Data Structures and Algorithms to improve the efficiency of medicine search and data management.
@@ -292,8 +339,8 @@ The following features are planned for future releases of MedIntel:
 * 📦 Inventory management for medicine stock monitoring
 * 🛒 Medicine ordering system for hospitals and pharmacies
 * 🚚 Real-time order tracking
-* 🔔 Low-stock notifications
 * ⏰ Medicine expiry date monitoring
+* 🔔 Low-stock notifications
 * 📊 Dashboard with medicine usage analytics
 * 🤖 AI-powered medicine assistant using Large Language Models (LLMs)
 
@@ -306,8 +353,8 @@ The following features are planned for future releases of MedIntel:
 
 **Project:** MedIntel – Generic Medicine Information System
 
-* GitHub: https://github.com/Saro-3
-* Email: [sharewithsaravanan@gmail.com](mailto:sharewithsaravanan@gmail.com)
+- GitHub: <https://github.com/Saro-3>
+- Email: <mailto:sharewithsaravanan@gmail.com>
 
 Thank you for visiting this repository. Feedback and suggestions are always welcome!
 
